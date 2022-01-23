@@ -1,0 +1,16 @@
+name: noise2void-experiments
+channels:
+  - conda-forge
+dependencies:
+  - python[version='<3.8.0a0']
+  - tensorflow=2.4.1
+  - ca-certificates
+  - openssl
+  - ipykernel
+  - keras=2.3.1
+  - certifi
+  - scikit-image
+  - pip
+  - pip:
+      - csbdeep==0.6.3
+      - n2v==0.3.1
